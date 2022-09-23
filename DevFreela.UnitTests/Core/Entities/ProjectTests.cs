@@ -64,9 +64,9 @@ namespace DevFreela.UnitTests.Core.Entities
         public void ProjectDataUpdated_Executed_ProjectReflectsUpdate()
         {
             _project.Update("NewTittle", "NewDescription", 20000);
-            Assert.Equal(_project.Title, "NewTittle");
-            Assert.Equal(_project.Description, "NewDescription");
-            Assert.Equal(_project.TotalCost, 20000);
+            Assert.Equal("NewTittle", _project.Title);
+            Assert.Equal("NewDescription", _project.Description);
+            Assert.Equal(20000, _project.TotalCost);
         }
     }
 }

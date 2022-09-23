@@ -1,15 +1,7 @@
 ﻿using DevFreela.Application.Commands.UpdateProject;
-using DevFreela.Application.Commands.UpdateSkill;
 using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
-using DevFreela.Core.Repositories;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DevFreela.UnitTests.Application.Commands
 {
     public class UpdateProjectCommandHandlerTests

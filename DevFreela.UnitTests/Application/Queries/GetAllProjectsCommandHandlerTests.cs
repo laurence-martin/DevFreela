@@ -8,7 +8,6 @@ namespace DevFreela.UnitTests.Application.Queries
     public class GetAllProjectsCommandHandlerTests
     {
         private readonly List<Project> _projectList;
-        private readonly IProjectRepository _projectRepository;
         public GetAllProjectsCommandHandlerTests()
         {
             _projectList = new List<Project>

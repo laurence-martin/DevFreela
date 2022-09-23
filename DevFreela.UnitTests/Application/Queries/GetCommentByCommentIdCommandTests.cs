@@ -1,7 +1,5 @@
-﻿using DevFreela.Application.Queries.GetAllSkills;
-using DevFreela.Application.Queries.GetCommentByCommentId;
+﻿using DevFreela.Application.Queries.GetCommentByCommentId;
 using DevFreela.Core.Entities;
-using DevFreela.Core.Repositories;
 using DevFreela.Core.Repositories;
 using Moq;
 
